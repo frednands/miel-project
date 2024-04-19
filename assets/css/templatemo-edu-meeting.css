@@ -585,7 +585,7 @@ header
   .header-area {
     background-color: #f7f7f7;
     padding: 0px 15px;
-    height: 100px;
+    height: 60px;
     box-shadow: none;
     text-align: center;
   }
@@ -594,6 +594,7 @@ header
   }
   .header-area .logo {
     margin-left: 30px;
+   
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -711,7 +712,12 @@ banner
     right: 0;
     width: 100%;
 }
+.main-banner .caption p{
+  line-height: 35px;
+  font: 5px;;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
 .main-banner .caption {
   position: absolute;
   top: 50%;
@@ -719,8 +725,10 @@ banner
 }
 
 .main-banner .caption h6 {
+  
   margin-top: 0px;
-  font-size: 15px;
+  margin-bottom: 4px;
+  font-size: 22px;
   text-transform: uppercase;
   font-weight: 600;
   color: #fff;
@@ -756,7 +764,7 @@ banner
 @media screen and (max-width: 767px) {
 
   .main-banner .caption h6 {
-    font-weight: 500;
+    font-weight: 00;
   }
 
   .main-banner .caption h2 {
@@ -1076,6 +1084,11 @@ section.apply-now .item p {
   .accordion-head {
     padding: 1rem;
     font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 399px) {
+  .caption h6{
+   color: #000;
   }
 }
 .accordion-head .icon {
@@ -1766,21 +1779,32 @@ responsive
 @media (max-width: 992px) {
 
   .main-banner .caption {
-    top: 60%;
+  
+    top: 30%;
+  
+  
   }
 
   .main-banner .caption h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: px;
+   
     font-size: 22px;
+  }
+  .main-banner{
+    margin-top: 20%;
+    width: 100%;
+  }
+  .main-banner .caption p {
+   
+   
   }
 
   .main-banner .caption .main-button-red {
-    margin-top: 15px;
+   display: none;
   }
 
   .services {
-    margin-top: 60px;
+    margin-top: 90px;
   }
 
   section.upcoming-meetings {
